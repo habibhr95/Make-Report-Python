@@ -7,7 +7,7 @@ def Emailer(text, subject, recipient):
     mail.To = recipient
     mail.Subject = subject
     mail.HtmlBody = text
-    mail.send
+    # mail.send
 
 Emailer("text","subject h","habib@gmail.com")
 
